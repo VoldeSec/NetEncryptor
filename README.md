@@ -13,6 +13,18 @@ C:\Users\VoldeSec\Desktop\NetEncryptor.exe -file Rubeus.exe
 [+] AES encrypting...
 [+] Encrypted file output to C:\Users\VoldeSec\Desktop\R-u-b-e-u-s_enc.txt
 ```
+Then edit the code of NetLoader to read the encrypted text file and decrypt it:
+```texinfo
+string hexString = System.IO.File.ReadAllText(yourtxtfile);
+byte[] encryptedbytes = new byte[hexString.Length / 2];
+        for (int index = 0; index < encryptedbytes.Length; index++)
+        {
+            string byteValue = hexString.Substring(index * 2, 2);
+            encryptedbytes[index] = byte.Parse(byteValue, NumberStyles.HexNumber, CultureInfo.InvariantCulture);
+        }
+decrypt(encryptedbytes)
+...
+```
 NetEncryptor also supports different modes and encryptions:
 ```texinfo
 Usage:
