@@ -70,7 +70,7 @@ C:\Users\VoldeSec\Desktop\NetEncryptor.exe -mode bin -en AES -file raw.bin --ran
 [+] Salt for AES encryption: ABGPRo85
 [+] IV for AES encryption: zu7fDgUt
 [+] AES encrypting...
-[+] Encrypted file output to C:\Users\VoldeSec\Desktop\R-u-b-e-u-s_enc.txt
+[+] Encrypted file output to C:\Users\VoldeSec\Desktop\r-a-w_enc.txt
 ```
 ## String AES encryption:
 ```texinfo
