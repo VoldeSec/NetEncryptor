@@ -66,9 +66,9 @@ C:\Users\VoldeSec\Desktop\NetEncryptor.exe -mode cs -en AES -key voldesec -salt 
 ## Raw shellcode AES encryption with random key:
 ```texinfo
 C:\Users\VoldeSec\Desktop\NetEncryptor.exe -mode bin -en AES -file raw.bin --random
-[+] Key for AES encryption: voldesec
-[+] Salt for AES encryption: voldesec
-[+] IV for AES encryption: voldesec
+[+] Key for AES encryption: OdgUY2t3
+[+] Salt for AES encryption: ABGPRo85
+[+] IV for AES encryption: zu7fDgUt
 [+] AES encrypting...
 [+] Encrypted file output to C:\Users\VoldeSec\Desktop\R-u-b-e-u-s_enc.txt
 ```
