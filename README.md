@@ -1,5 +1,5 @@
 # NetEncryptor
-Encryptor of CSharp binary, raw shellcode and any strings with AES or XOR. Built for the combined usage of NetLoader to provide more obfuscation.
+Encryptor of CSharp binary, raw shellcode and any strings with AES or XOR. Built for the combined usage of NetLoader to provide enchanced obfuscation.
 Default using AES encryption to encrypt CSharp binary using key "Passw0rd", salt "salt" and iv "iv".
 
 # Usage
